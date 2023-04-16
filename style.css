@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    /* ctrl + shift + i = Conrole depths tool means "Colour Churana" */
+    background-color: hsla(0, 20%, 1%, 0.76);
+    display: flex;
+}
+
+#part1 {
+    height: 100%;
+    width: 26%;
+    /* background-color: orange; */
+}
+
+#part2 {
+    height: 100%;
+    width: 67%;
+    /* background-color: rgb(255, 255, 132); */
+    background-image: url(https://images.unsplash.com/photo-1613991917190-e68d404b2617?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fG1vZGVsc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+#part3 {
+    height: 100%;
+    width: 7%;
+    /* background-color: rgb(213, 114, 255); */
+}
+
+#text-div {
+    /* height: 300px; */
+    width: 400px;
+    position: absolute;
+    top: 55%;
+    left: 6%;
+    transform: translate(0, -50%);
+    /* background-color: chocolate; */
+}
+
+#text-div h1 {
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 800;
+    letter-spacing: 6px;
+    line-height: 70px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#small-img-div {
+    height: 400px;
+    width: 300px;
+    background-color: brown;
+    position: absolute;
+    top: 22%;
+    left: 75%;
+    background-image: url(https://images.unsplash.com/photo-1556347961-f9521a88cb8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bW9kZWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+}
+
+#overlay1 {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(37, 37, 37, 0.339);
+}
+
+#vertical-text {
+    position: absolute;
+    transform: rotate(90deg);
+    right: -46%;
+    top: -3%;
+    transform-origin: 0% 0%;
+    /* width: 100%; */
+    /* background-color: #199919; */
+}
+
+#vertical-text h1 {
+    font-size: 54px;
+    font-weight: 800;
+    font-family: 'Arial Narrow', Arial;
+    text-transform: uppercase;
+    color: transparent;
+    letter-spacing: 5px;
+
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+}
+
+
+#nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 360px;
+    top: 6%;
+    left: 6%;
+    color: white;
+    /* background-color: red; */
+}
+
+#nav img {
+    height: 50px;
+}
+
+nav h6 {
+    font-size: 30px;
+    font-family: gilroy;
+}
